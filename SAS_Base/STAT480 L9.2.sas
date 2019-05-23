@@ -1,3 +1,5 @@
+* 9.2 - The INVALUE Statement;
+
 * Example 9.1. Because there are 638 observations and 16 variables in 
 the permanent background data set icdb.back, the data on just ten 
 subjects and nine variables are selected when creating the temporary 
