@@ -1,3 +1,9 @@
+* Example 9.1. Because there are 638 observations and 16 variables in 
+the permanent background data set icdb.back, the data on just ten 
+subjects and nine variables are selected when creating the temporary 
+working background data set back. The following SAS program creates 
+the subset:;
+
 OPTIONS PS = 58 LS = 80 NODATE NONUMBER;
 LIBNAME icdb '/folders/myfolders/sasuser.v94/STAT480/Data';
 
