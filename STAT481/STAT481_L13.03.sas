@@ -12,6 +12,13 @@ PROC SORT data = stat481.sales out = srtdsales;
   by Store;
 RUN;
 
+/*
+FIRST.variable = 1 when an observation is the first observation in a BY group
+FIRST.variable = 0 when an observation is not the first observation in a BY group
+LAST.variable = 1 when an observation is the last observation in a BY group
+LAST.variable = 0 when an observation is not the last observation in a BY group
+*/
+
 DATA storesales;
     set srtdsales;
 	by Store;
@@ -28,8 +35,8 @@ RUN;
 BY statements to tell SAS to identify the first and 
 last observations for each Store that appears in the 
 sales data set, and to subsequently use that information 
-to determine and display the total sales (StoreTotal) — 
-that is, across all of the departments and quarters — for each Store:;
+to determine and display the total sales (StoreTotal) â€” 
+that is, across all of the departments and quarters â€” for each Store:;
 
 
 PROC SORT data = stat481.sales out = srtdsales;
