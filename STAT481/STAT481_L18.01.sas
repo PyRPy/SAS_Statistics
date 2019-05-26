@@ -1,6 +1,6 @@
 * 18.1 - Constructing Do Loops;
 * Example 18.1. The following program uses a DO loop to tell 
-SAS to determine what four times three (4 × 3) equals:;
+SAS to determine what four times three (4 Ã— 3) equals:;
 
 OPTIONS PS = 58 LS = 78 NODATE NONUMBER;
 
