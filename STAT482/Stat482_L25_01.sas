@@ -44,4 +44,4 @@ PROC FREQ data = odds;
    TABLE Exposure*Outcome / chisq cmh;
    WEIGHT Count;
 RUN;
-
+* check with lecture notes 25;
