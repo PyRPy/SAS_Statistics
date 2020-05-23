@@ -5,8 +5,8 @@ libname stat482 "C:\Data_SAS";
 
 PROC SQL;
 	select ID,
-               SATM,
-               SATV
+           SATM,
+           SATV
 	from stat482.survey2;
 QUIT;
 
@@ -60,7 +60,7 @@ RUN;
 
 * Example 32.5  The following program is to create new columns 
 with the SELECT statement:;
-
+* scan is a char function ;
 PROC SQL;
 	select id, 
                count_location,
