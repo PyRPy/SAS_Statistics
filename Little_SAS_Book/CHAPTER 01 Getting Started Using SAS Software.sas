@@ -10,3 +10,8 @@ PROC PRINT  DATA = distance; /* Print the results */
 RUN;
 
 /* Using SAS System Options */
+PROC OPTIONS OPTION = (MISSING VALIDVARNAME YEARCUTOFF NOOBS);
+RUN;
+
+PROC PRINT  DATA = distance noobs;  
+RUN;
